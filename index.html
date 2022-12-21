@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WHACK A MOLE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>WHACK A MOLE</h1>
+    <img src="mole.png" id="mole" />
+    <img src="mud.png" id="mud" />
+    <button type="button" id="start" onclick="start()">START</button>
+
+    <img src="mud.png" id="dirt1" class="dirt"/>
+    <img src="mud.png" id="dirt2" class="dirt"/>
+    <img src="mud.png" id="dirt3" class="dirt"/>
+    <img src="mud.png" id="dirt4" class="dirt"/>
+    <img src="mud.png" id="dirt5" class="dirt"/>
+    <img src="mud.png" id="dirt6" class="dirt"/>
+
+    <img src="mole.png" id="mole1" class="mole"   onmouseover="clicked1()" />
+    <img src="mole.png" id="mole2" class="mole"   onmouseover="clicked1()" />
+    <img src="mole.png" id="mole3" class="mole"   onmouseover="clicked1()" />
+    <img src="mole.png" id="mole4" class="mole"   onmouseover="clicked1()" />
+    <img src="mole.png" id="mole5" class="mole"   onmouseover="clicked1()" />
+    <img src="mole.png" id="mole6" class="mole"   onmouseover="clicked1()"/>
+
+    <span class="points">YOUR POINT :- <span id="currentPoint">0</span></span>
+    <!-- <span  class="points"><span id="currentPoint">0</span></span> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
